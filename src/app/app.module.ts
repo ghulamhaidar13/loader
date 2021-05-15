@@ -9,7 +9,7 @@ import { LoaderDirective } from './directives/loader.directive';
 
 const route: Routes = [
   {
-    path: 'app',
+    path: '',
     component: AppComponent
   }
 ];
