@@ -1,0 +1,42 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="header">
+  <h3>Loader example with dynamic component</h3>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4 p-2">
+    <div>
+      <div class="content" [loader]="container1Loader">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem temporibus cupiditate iure recusandae esse aut natus. Tempore eos corporis voluptate fugiat repellendus esse, fugit quidem, magni quisquam, enim laboriosam voluptatum.
+      </div>
+    </div>
+    <div class="footer p-2">
+      <button class="btn btn-primary" (click)="startLoader(1)">Start Loader</button>
+      <button class="btn btn-secondary" (click)="stopLoader(1)">Stop Loader</button>
+    </div>
+  </div>
+  <div class="col-md-4 p-2">
+    <div>
+      <div class="content" [loader]="container2Loader">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem temporibus cupiditate iure recusandae esse aut natus. Tempore eos corporis voluptate fugiat repellendus esse, fugit quidem, magni quisquam, enim laboriosam voluptatum.
+      </div>
+    </div>
+    <div class="footer p-2">
+      <button class="btn btn-primary" (click)="startLoader(2)">Start Loader</button>
+      <button class="btn btn-secondary" (click)="stopLoader(2)">Stop Loader</button>
+    </div>
+  </div>
+  <div class="col-md-4 p-2">
+    <div>
+      <div class="content" [loader]="container3Loader">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem temporibus cupiditate iure recusandae esse aut natus. Tempore eos corporis voluptate fugiat repellendus esse, fugit quidem, magni quisquam, enim laboriosam voluptatum.
+      </div>
+    </div>
+    <div class="footer p-2">
+      <button class="btn btn-primary" (click)="startLoader(3)">Start Loader</button>
+      <button class="btn btn-secondary" (click)="stopLoader(3)">Stop Loader</button>
+    </div>
+  </div>
+</div>
+
